@@ -98,7 +98,7 @@ def get_retriever_for_topic(vectorstore, topic_name=None):
     return vectorstore.as_retriever(search_kwargs=search_kwargs)
 
 # Main header
-st.title("Deliberation Insight Assistant Demo")
+st.title("Focus Group RAG Summariser")
 st.subheader("Powered by Llama 3.2")
 
 # File uploader
